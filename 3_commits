@@ -11,6 +11,8 @@
 		// Make your commit
 			git commit -m' this is the commit message tag'
 
+		// how to sign a commit
+			// you can manually sign a commit
 
 //Section 2
 	//How to view commit Log
