@@ -14,4 +14,5 @@
 			// rev:	    // updating or modifiying existing content in existing documents
 			// new:     // added a new file or document such as a section
 			// bug;	    // fix typos or inacurate information
-			
+			// merge;   // when the primary actions was a merge to update the branch		
+	
