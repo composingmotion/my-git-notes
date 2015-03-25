@@ -1,0 +1,5 @@
+// how to initilize the git repo 
+	//for a basic initilize
+		git init
+	// to initilize an blank repo
+		git init --bare

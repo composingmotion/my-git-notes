@@ -1,0 +1,13 @@
+Sections
+	1. how to make commits
+	2. how to view commits
+	3. how to edit commits
+
+// Section 1
+	// how to make a commit
+		// You will need to first make a change to the repository then stage the change before you commit
+			// Ex. echo "hello" >> example.txt
+			// git add example.txt or git add .
+		// Make your commit
+			git commit -m' this is the commit message tag'
+
