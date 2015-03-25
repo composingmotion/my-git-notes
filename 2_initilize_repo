@@ -3,3 +3,21 @@
 		git init
 	// to initilize an blank repo
 		git init --bare
+
+
+//Bonus to use a local directory for the remote. you could also use a folder that syncs to share this  EX: Dropbox..
+	//First chose the location of the local and 'remote' repo
+		// cd ~/temp
+		// mkdir git_repo_local
+		// mkdir git_repo_remote.git
+	//Second initilize local	
+		// cd ~/git_repo_local
+		// git init 
+	//Third Initilize Remote
+		// cd ~/git_repo_remote.git
+		// git init --bare // this option creates an empty repo
+	//Fourth add the 'remote' location to the 'local' repo
+		//git remote add remote_repo ~/git_repo_remote.git
+	//Push local to remote to begin using as master repo
+		// git push -u remote_repo master
+		
