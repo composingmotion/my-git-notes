@@ -1,5 +1,10 @@
 //This file Describes the naming conventions to be used with this repo
 
+	//Version numbers
+		// how to update the current version
+			// version 1 looks like 00.00.01-01 - 00.00.01-99
+			// version 2 looks like 00.00.02.01 - 00.00.01-99
+
 	//Branches
 		// purpose of each branch
 			// master // this is the most current release
