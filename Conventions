@@ -1,0 +1,10 @@
+//This file Describes the naming conventions to be used with this repo
+
+	//Commits
+		// when makeing commits the following conventions should be use
+		// list previsionairy ;0 
+			// content: // adding new content to EXISTING Documents
+			// rev:	    // updating or modifiying existing content in existing documents
+			// new:     // added a new file or document such as a section
+			// bug;	    // fix typos or inacurate information
+			
