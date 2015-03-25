@@ -1,0 +1,7 @@
+// This page explains how to Stage, and unstage files, folders etc
+	
+	// when you make changes to your working directory, you must stage the changes in order to commit them
+	// you can stage a file with the git add command here is an example
+		touch new_file 		      // example, in nix* creates a empty text fil
+		git add new_file	      //the add new_file to the staging area
+		git commit -m'added new file' // this commits the newley staged file
