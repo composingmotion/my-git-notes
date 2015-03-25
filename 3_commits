@@ -16,9 +16,15 @@
 	//How to view commit Log
 		// display the 3 most recent commits
 			git log
+
 		// show a specified number of commits 
 			git log -n '5' // this will show 5 commits..
+
 		// show commits from and too certain dates
 			git log --since=2015-03-03	// this will show commits beginning at 2015-03-03
 			git log --until=2015-03-25	// this will show commits up until 2015-03-25
-			git log 			// this is an example combining mutiple log options to show a specific range
+			git log --since=2015-03-03 --until=2015-05-15			// this is an example combining mutiple log options to show a specific range
+
+		// show commits from certain contributors
+			git log --author="username"
+			
