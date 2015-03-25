@@ -5,8 +5,7 @@
 			// master // this is the most current release
 			// pending-revisions // this stage is where approved changes go for final review
 			// sugguested-modifications // this branch is the first step to add new content. changes will be merged into pending-revisions and then into master
-
-
+			
 	//Commits
 		// when makeing commits the following conventions should be use
 		// list previsionairy ;0 
