@@ -1,0 +1,9 @@
+// this file will summarize the most important commands
+
+	//Sections
+		//
+
+
+		//git status -compares the working directory,
+			// staging area and repo for varation. use this command to look for untracked files. 
+			// or to check whether or not the repo is up to date 
