@@ -2,6 +2,10 @@
 	//undo commit
 	//pull old versions of the file from rep
 	//ammending commits
-
-// pull a file from the repository use
+	// unstaging files
+// Undo file delete.. pull a file from the repository use
 	git checkout -- neededfile // the double dash '--' specifies too checkout that we are not asking for a branch called neededfile
+
+//section 4
+	// how to unstage a file after your have staged it
+		git reset HEAD filename // tells git to look at the current commit on this branch and changes the working directory to match
