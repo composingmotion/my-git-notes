@@ -3,3 +3,7 @@
 
 // add your email
 	git config --global user.email
+// change your default editor
+	git config --global core.editor "nano"
+	// to set nano to save on exit you can
+	git config --global core.editor "nano --tempfile'
