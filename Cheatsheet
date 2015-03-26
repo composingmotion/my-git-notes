@@ -9,5 +9,9 @@
 	// git will automaticaly handle the move rename and update the staging area while recognizing the files lineage
 		git mv old_filename new_filename
 	
+//git commit Shortcut
+	// how to stage and commit in one step
+	// WARNING dangerous, not considered best practive
+		git commit -a // the negative a flag is the one of interest here
 
 
