@@ -1,3 +1,5 @@
 // here we will learn how to use diff
 		//compare whats in the repository 'head' vs working directory git diff
-		//
+			git diff 
+		// to compare changes after they have been staged 
+			git diff --staged
