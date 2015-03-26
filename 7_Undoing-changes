@@ -3,9 +3,19 @@
 	//pull old versions of the file from rep
 	//ammending commits
 	// unstaging files
+	// added section ammending commits
+
 // Undo file delete.. pull a file from the repository use
 	git checkout -- neededfile // the double dash '--' specifies too checkout that we are not asking for a branch called neededfile
 
 //section 4
 	// how to unstage a file after your have staged it
-		git reset HEAD filename // tells git to look at the current commit on this branch and changes the working directory to match
+		git reset HEAD filename // tells git to look at the current commit on this branch and changes 
+					//the working directory to match
+//Section 5 
+	// how to ammend/edit/change a commit
+		//this only works on the most recent commit
+		// you can change the a commit and the description
+		// make the changes in the working directory then
+		git commit --amend  
+		
