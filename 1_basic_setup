@@ -7,3 +7,5 @@
 	git config --global core.editor "nano"
 	// to set nano to save on exit you can
 	git config --global core.editor "nano --tempfile'
+	// to set gedit as your default 
+	git config --global core.editor "gedit -w -s"
