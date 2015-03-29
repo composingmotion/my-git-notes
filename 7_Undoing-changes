@@ -1,12 +1,19 @@
 // this file is for instrucing one on how to do things like
-	//undo commit
-	//pull old versions of the file from rep
-	//ammending commits
-	// unstaging files
-	// added section ammending commits
+	// section 1	//undo commit
+	// section 2	// revert a commit
+	// section 3	//pull old versions of the file from rep
+	// section 4 	//ammending commits
+	// section 5	//unstaging files
+	// section 6	//added section ammending commits
 
 // Undo file delete.. pull a file from the repository use
 	git checkout -- neededfile // the double dash '--' specifies too checkout that we are not asking for a branch called neededfile
+
+
+//section 2
+	// How to revert a commit
+		git revert 'commit number' // this will automatically reverse a specific commit
+
 
 //section 4
 	// how to unstage a file after your have staged it
