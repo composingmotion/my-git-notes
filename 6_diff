@@ -3,3 +3,6 @@
 			git diff 
 		// to compare changes after they have been staged 
 			git diff --staged
+
+// compare branches
+		git diff branchname branchname
