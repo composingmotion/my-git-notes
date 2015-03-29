@@ -1,0 +1,7 @@
+//adding a .gitignore files to ignore tracking of certain files
+	//negate expressions with ! for example	if you wanted to ignore all *.php files but wanted to include index.php
+		*.php		// ignore all .php files
+		?index.php	// do not ignore index.php
+
+	//to ignore all files in a directory
+		/assets/videos/
