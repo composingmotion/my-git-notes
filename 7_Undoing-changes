@@ -1,6 +1,7 @@
 // this file is for instrucing one on how to do things like
 	// section 1	//undo commit
-	// section 2	// revert a commit
+	// section 2	//revert a commit
+	// section 3	// revert multiple commits
 	// section 3	//pull old versions of the file from rep
 	// section 4 	//ammending commits
 	// section 5	//unstaging files
@@ -14,6 +15,13 @@
 	// How to revert a commit
 		git revert 'commit number' // this will automatically reverse a specific commit
 
+
+//section 3
+	// how to revert multiple commits
+	git reset 'commit number' // this moves the head to the specified commit commit defaults to --mixed
+		-- soft 	//	moves head but does not change the staging directory or working directory
+		-- mixed 	//	moves the head and reverts the staging dirctory
+		--hard		//	moves the head and reverts the staging directory and working directory
 
 //section 4
 	// how to unstage a file after your have staged it
