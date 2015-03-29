@@ -32,3 +32,6 @@
 			
 		// Search commit messages
 			git log --grep='string you are searching for' // this will search for any commit with "string you are searching for" in the commit message
+
+		// list commits between two.. 
+			git log commitsha..commitsha
