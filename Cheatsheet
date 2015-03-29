@@ -1,3 +1,9 @@
+// git clean // removes untracked files from the working directory
+	git clean // does nothing requires flag
+		-n // test run. will show you the results
+		-f // force, runs git clean, deletes untracked files from working directory
+
+
 //git status -compares the working directory,
 	// staging area and repo for varation. use this command to look for untracked files. 
 	// or to check whether or not the repo is up to date 
