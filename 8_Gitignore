@@ -1,4 +1,5 @@
 // to ignore tracked file from being updated..
+	first add to .gitignore	
 	git rm --cached filename // this will keep the repository copy and.. this will keep the working version but it will stop being tracked 
 
 
