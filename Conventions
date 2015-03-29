@@ -25,3 +25,8 @@
 		// this could be personal notes, changes you dont want to make yet etc
 		// then use name the file
 			.ignore
+
+
+	// tracking empty folders
+		//add this file to the directory
+		.gitkeep
