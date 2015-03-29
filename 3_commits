@@ -39,3 +39,4 @@
 //Section 4
 	// to list commits for a specific file
 		git log filename
+		git log -p filename //this will show the diffs for every result
