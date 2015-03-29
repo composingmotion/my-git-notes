@@ -2,7 +2,7 @@
 //	1. how to make commits
 //	2. how to view commits
 //	3. how to edit commits
-
+//	4. how list commits for a specific file
 // Section 1
 	// how to make a commit
 		// You will need to first make a change to the repository then stage the change before you commit
@@ -35,3 +35,7 @@
 
 		// list commits between two.. 
 			git log commitsha..commitsha
+
+//Section 4
+	// to list commits for a specific file
+		git log filename
